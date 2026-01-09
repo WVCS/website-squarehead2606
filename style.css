@@ -1,3 +1,42 @@
 body {
+@charset "utf-8";
+
+body{
+	background-color:aqua;
+}
+img{
+	width: 300px;
+}
+img:hover{
+	border: dotted 5px purple;
+	width: 300;
+	border-radius:30%;
+}
+h2{
+	font-style:italic;
+	font-weight:bold;
+	text-decoration: underline 2px black;
+	font-variant: small-caps;
+	
+}
+<style>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+</style>
 
 }
